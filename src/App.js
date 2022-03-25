@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import BTLayout from "./Components/BTLayOut/BTLayout";
+import CardRCC from "./Components/CardRCC";
+import CardRFC from "./Components/CardRFC";
+import DataBinding from "./Components/DataBinding";
+import HandleEvent from "./Components/HandleEvent";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <BTLayout/> */}
+      {/* <DataBinding/> */}
+      <HandleEvent />
+      {/* <CardRFC />
+      <h3>Cybersoft bc23</h3>
+      <CardRCC />
+      <CardRCC />
+      <CardRCC />
+      <CardRCC />
+      <CardRCC />
+      <CardRCC /> */}
     </div>
   );
 }
